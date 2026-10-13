@@ -7,7 +7,7 @@ pipeline {
         AWS_ACCOUNT_ID = '405134482584'
         ECR_REPO_NAME  = 'jenkins1'
         EKS_CLUSTER    = 'my-eks-cluster'
-        APP_NAME       = 'my-app'
+        APP_NAME       = 'java-app'
     }
 
     stages {
